@@ -1,0 +1,17 @@
+/*create table person
+(
+id integer PRIMARY KEY,
+name varchar(255) not null,
+location varchar(255), 
+birth_date timestamp
+);
+
+*/
+INSERT INTO PERSON(ID,NAME,LOCATION,BIRTH_DATE)
+VALUES (10001,'RANGA','HYDERABAD',sysdate());
+
+INSERT INTO PERSON(ID,NAME,LOCATION,BIRTH_DATE)
+VALUES (10002,'JAMES','NEW YORK',sysdate());
+
+INSERT INTO PERSON(ID,NAME,LOCATION,BIRTH_DATE)
+VALUES (10003,'PETER','AMSTERDAM',sysdate());
